@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: Longsword.ma
-//Last modified: Fri, Jan 20, 2023 01:40:52 PM
+//Last modified: Fri, Jan 20, 2023 01:44:16 PM
 //Codeset: 1252
 requires maya "2023";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.2.1.1";
@@ -10,12 +10,12 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202211021031-847a9f9623";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "D5A64233-4CFE-8394-E71E-01A560A55BD6";
+fileInfo "UUID" "E719CDA7-464E-5CEF-F05F-4AB42884574E";
 createNode transform -s -n "persp";
 	rename -uid "A4B06956-4441-C6EB-2099-B9AABFFC97EE";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 3.471674118987869 8.0720927187495217 7.248546043961599 ;
-	setAttr ".r" -type "double3" -35.138352726775452 -688.5999999998686 1.8631314572142723e-15 ;
+	setAttr ".t" -type "double3" 1.9754607399658646 10.19917138931805 5.8427015396585222 ;
+	setAttr ".r" -type "double3" -50.138352726775338 -692.99999999986574 0 ;
 	setAttr ".rp" -type "double3" 3.2654183355769922e-16 -6.9881572919746001e-16 7.1054273576010019e-15 ;
 	setAttr ".rpt" -type "double3" 1.0637932507199245e-14 3.0042109694423087e-15 -2.1108862174765434e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
